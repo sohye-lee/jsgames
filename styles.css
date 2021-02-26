@@ -1,0 +1,45 @@
+:root {
+    /* COLORS */
+    --Black: rgb(24, 23, 23);
+    --White: rgb(241, 240, 240);
+    --Gray: rgb(112, 112, 112);
+    --DarkGray: rgb(59, 59, 59);
+    --Pink: rgb(253, 44, 96);
+    --Blue: rgb(31, 31, 250);
+    --Red: rgb(248, 14, 33);
+    --DarkGreen: rgb(12, 77, 12);
+
+}
+
+
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.page__container {
+    background-color: var(--Black);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game__container {
+    margin: 4rem auto;
+}
+
+.game__title {
+    color: var(--White);
+    text-align: center;
+}
+
+.game__box {
+    width: 50rem;
+    height: 50rem;
+    box-shadow: 5px 5px 13px rgba(210, 210, 210, .3);
+}
