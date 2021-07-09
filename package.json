@@ -6,12 +6,17 @@
   "type": "module",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "compile:sass": "node-sass css/styles.scss css/styles.css -w "
   },
   "author": "So Hye Lee",
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1",
+    "live-server": "^1.2.1",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
   }
 }
